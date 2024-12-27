@@ -90,14 +90,14 @@ const Home: React.FC = () => {
             ARTIST STATEMENT
           </motion.h2>
           
-          <div className="grid grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
             <motion.div 
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              className="space-y-8 transform-gpu"
+              className="space-y-6 md:space-y-8 transform-gpu"
             >
-              <h3 className="font-cormorant text-5xl text-charcoal">Creating Visual Poetry</h3>
+              <h3 className="font-cormorant text-4xl md:text-5xl text-charcoal">Creating Visual Poetry</h3>
               <p className="text-charcoal/70 leading-relaxed">
                 My work explores the intersection of urban architecture and human emotion, 
                 capturing the pulse of New York City through abstract expressionism. Each piece 
@@ -108,7 +108,7 @@ const Home: React.FC = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5, duration: 0.8 }}
-                className="flex gap-6 justify-center"
+                className="flex gap-6 justify-center pt-2"
               >
                 <Link to="/about">
                   <motion.button
@@ -125,7 +125,7 @@ const Home: React.FC = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              className="will-change-transform aspect-[4/5] overflow-hidden"
+              className="will-change-transform aspect-[4/5] overflow-hidden mt-8 md:mt-0"
             >
               <img
                 loading="lazy"
