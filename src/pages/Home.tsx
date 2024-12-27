@@ -15,21 +15,24 @@ const fadeInUp = {
 const exhibitions = [
   {
     title: "Urban Rhythms Solo Exhibition",
-    date: "March 15 - April 30, 2024",
+    date: "March 15 - April 30, 2025",
     location: "Chelsea Modern Gallery, NYC",
-    image: "/exhibition1.jpg"
+    description: "A comprehensive showcase of recent works exploring urban landscapes",
+    image: "/exhibition1.webp"
   },
   {
     title: "Abstract Narratives Group Show",
-    date: "May 10 - June 20, 2024",
+    date: "May 10 - June 20, 2025",
     location: "MoMA PS1, Queens",
-    image: "/exhibition2.jpg"
+    description: "Featured artist in contemporary abstract expressionism exhibition",
+    image: "/exhibition2.webp"
   },
   {
     title: "Summer Contemporary Festival",
-    date: "July 1 - August 15, 2024",
+    date: "July 1 - August 15, 2025",
     location: "Brooklyn Art Center",
-    image: "/exhibition3.jpg"
+    description: "Group exhibition featuring emerging NYC artists",
+    image: "/exhibition3.webp"
   }
 ]
 
@@ -130,7 +133,7 @@ const Home: React.FC = () => {
               <img
                 loading="lazy"
                 decoding="async"
-                src="/artist-portrait.jpg"
+                src="/sarah.webp"
                 alt="Sarah Chen in her studio"
                 className="w-full h-full object-cover hover:scale-105 transition-all duration-700"
               />

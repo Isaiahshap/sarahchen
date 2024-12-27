@@ -5,7 +5,6 @@ import Loading from './components/Loading'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Exhibitions from './pages/Exhibitions'
-import Press from './pages/Press'
 import About from './pages/About'
 import Inquire from './pages/Inquire'
 import PrivacyPolicy from './pages/PrivacyPolicy'
@@ -24,7 +23,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/exhibitions" element={<Exhibitions />} />
-          <Route path="/press" element={<Press />} />
           <Route path="/about" element={<About />} />
           <Route path="/inquire" element={<Inquire />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

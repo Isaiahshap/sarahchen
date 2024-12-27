@@ -51,7 +51,7 @@ const About = () => {
               <img 
                 loading="lazy"
                 decoding="async"
-                src="/artist-portrait-2.jpg"
+                src="/sarah2.webp"
                 alt="Sarah Chen in her Brooklyn studio"
                 className="w-full h-full object-cover hover:scale-105 transition-all duration-700"
               />

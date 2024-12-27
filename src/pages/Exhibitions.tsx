@@ -10,30 +10,30 @@ const exhibitions = {
       date: "March 15 - April 30, 2024",
       location: "Chelsea Modern Gallery, NYC",
       description: "A comprehensive showcase of recent works exploring urban landscapes",
-      image: "/exhibition1.jpg"
+      image: "/exhibition1.webp"
     },
     {
       title: "Abstract Narratives Group Show",
-      date: "May 10 - June 20, 2024",
+      date: "May 10 - June 20, 2025",
       location: "MoMA PS1, Queens",
       description: "Featured artist in contemporary abstract expressionism exhibition",
-      image: "/exhibition2.jpg"
-    }
+      image: "/exhibition2.webp"
+    },
+    {
+        title: "Summer Contemporary Festival",
+        date: "July 1 - August 15, 2025",
+        location: "Brooklyn Art Center",
+        description: "Group exhibition featuring emerging NYC artists",
+        image: "/exhibition3.webp"
+      }
   ],
   past: [
-    {
-      title: "Chromatic Emotions",
-      date: "October - November 2023",
-      location: "Brooklyn Art Center",
-      description: "Solo exhibition featuring the Abstract Emotions series",
-      image: "/exhibition3.jpg"
-    },
     {
       title: "New York Contemporary",
       date: "Summer 2023",
       location: "Gagosian Gallery, NYC",
       description: "Group exhibition featuring emerging NYC artists",
-      image: "/exhibition4.jpg"
+      image: "/exhibition4.webp"
     }
   ]
 }

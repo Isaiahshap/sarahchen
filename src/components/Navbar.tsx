@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 const menuItems = [
   'PORTFOLIO',
   'EXHIBITIONS',
-  'PRESS',
   'ABOUT'
 ]
 
