@@ -26,7 +26,6 @@ const Footer: React.FC = () => {
               {[
                 { name: 'Portfolio', path: '/portfolio' },
                 { name: 'Exhibitions', path: '/exhibitions' },
-                { name: 'Press', path: '/press' },
                 { name: 'About', path: '/about' },
               ].map((link) => (
                 <Link
@@ -102,6 +101,19 @@ const Footer: React.FC = () => {
               </Link>
             </div>
           </div>
+        </div>
+
+        <div className="text-center text-charcoal/50 text-sm">
+          <p>Demo site by{' '}
+            <a 
+              href="https://yeshaya.dev" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gold hover:text-gold/80 transition-colors"
+            >
+              yeshaya.dev
+            </a>
+          </p>
         </div>
       </div>
     </footer>
