@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
@@ -106,7 +105,7 @@ const Exhibitions = () => {
             </motion.h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-              {exhibitions.past.map((exhibition, index) => (
+              {exhibitions.past.map((exhibition) => (
                 <motion.div
                   key={exhibition.title}
                   initial={{ opacity: 0 }}

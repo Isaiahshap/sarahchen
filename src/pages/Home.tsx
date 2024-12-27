@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -61,7 +61,6 @@ const artworks = [
 ]
 
 const Home: React.FC = () => {
-  const { scrollYProgress } = useScroll()
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
 
