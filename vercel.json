@@ -4,7 +4,10 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": { 
+        "distDir": "dist",
+        "includeFiles": ["public/**"]
+      }
     }
   ],
   "routes": [
@@ -14,7 +17,7 @@
       "dest": "/assets/$1"
     },
     {
-      "src": "/(.*).(js|css|ico|json)",
+      "src": "/(.*)\\.(js|css|ico|json|jpg|jpeg|png|gif|webp|svg|mp4|woff|woff2|ttf|eot)",
       "headers": { "cache-control": "public, max-age=31536000, immutable" },
       "dest": "/$1.$2"
     },
