@@ -62,7 +62,6 @@ const artworks = [
 
 const Home: React.FC = () => {
   const { scrollYProgress } = useScroll()
-  const opacity = useTransform(scrollYProgress, [0, 0.2], [1, 0])
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
 

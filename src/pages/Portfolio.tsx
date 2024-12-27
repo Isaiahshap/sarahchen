@@ -42,7 +42,7 @@ const Portfolio = () => {
             Collections
           </motion.h1>
 
-          {collections.map((collection, index) => (
+          {collections.map((collection) => (
             <motion.section 
               key={collection.name}
               initial={{ opacity: 0 }}
